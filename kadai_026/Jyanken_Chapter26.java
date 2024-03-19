@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Jyanken_Chapter26 {
 	//じゃんけんの手を作成		
 	HashMap<String,String> hand = new HashMap<>();
-		//じゃんけんの手を追加		
+		//コンストラクタ、じゃんけんの手を追加		
 		 public Jyanken_Chapter26() { 
 			 hand.put("r","グー");
 			 hand.put("s" ,"チョキ");
